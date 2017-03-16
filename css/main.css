@@ -664,6 +664,7 @@ h2, h3 {
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 	pointer-events: none;
+	transition: opacity 0.5s ease;
 }
 
 .loading span {
