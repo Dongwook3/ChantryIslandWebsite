@@ -56,7 +56,7 @@ $(document).foundation();
 
 		map.setCenter({ lat: position.coords.latitude, lng: position.coords.longitude });
 
-		map.setZoom(10);
+		map.setZoom(17);
 
 		yourMarker = new google.maps.Marker({
 			position : { lat: position.coords.latitude, lng: position.coords.longitude },
