@@ -14,7 +14,7 @@
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 		<link href="css/foundation.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWD1LSbz7HZBjmxOfjJLuMINqXPhNcAnk&amp;libraries=geometry&amp;callback=initMap"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWD1LSbz7HZBjmxOfjJLuMINqXPhNcAnk&amp;libraries=geometry"></script>
 	</head>
 
 <body>
@@ -56,12 +56,12 @@
 			<div id="mapCon" class="small-10 small-centered columns row">
 				<div class="small-12 columns mapCal">
 					<h2>MAPS</h2>
-					<!--<div class="loading">
+					<div class="loading">
 	 					<i class="fa fa-spinner fa-spin"></i>
 						<span>Map is loading, please wait...</span>
-					</div>-->
-					<div class="small-12 medium-12 large-6 map"></div>
-					<div class="small-12 medium-12 large-6 pano"></div>
+					</div>
+					<div class="map"></div>
+					<!--<div class="small-12 medium-12 large-6 pano"></div>-->
                     
              		<div>
              			<button class="drawRoute">Calculate Route</button>
