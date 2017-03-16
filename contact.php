@@ -32,7 +32,7 @@
 	?>
 
 	<div class="container">
-    	<div class="row mainHeader backImages" data-interchange="[images/contactBg-S.jpg, small], [images/contactBg-M, medium], [images/contactBg-L.jpg, large]">
+    	<div class="row mainHeader backImages" data-interchange="[images/contactBg-S.jpg, small], [images/contactBg-M.jpg, medium], [images/contactBg-L.jpg, large]">
 			<h2 class="hidden">Booking &amp; Navigation</h2>
 			<div class="small-12 columns adminBar">
 				<a href="admin/admin_login.php">Adminstrative SIGN-IN</a>

@@ -15,7 +15,8 @@
 		<link href="css/foundation.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWD1LSbz7HZBjmxOfjJLuMINqXPhNcAnk&libraries=geometry"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWD1LSbz7HZBjmxOfjJLuMINqXPhNcAnk&callback=initMap"></script>
+		<script type="text/javascript" src="/js/map_viewer.js"></script>
 	</head>
 
 <body>
@@ -25,7 +26,7 @@
 	?>
 
 	<div class="container">
-    	<div class="row mainHeader backImages" data-interchange="[images/contactBg-S.jpg, small], [images/contactBg-M, medium], [images/contactBg-L.jpg, large]">
+    	<div class="row mainHeader backImages" data-interchange="[images/contactBg-S.jpg, small], [images/contactBg-M.jpg, medium], [images/contactBg-L.jpg, large]">
 			<h2 class="hidden">Booking &amp; Navigation</h2>
 			<div class="small-12 columns adminBar">
 				<a href="admin/admin_login.php">Adminstrative SIGN-IN</a>
