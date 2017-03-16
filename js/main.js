@@ -38,7 +38,6 @@ $(document).foundation();
 
 		geocoder = new google.maps.Geocoder(),
 		mapButton = document.querySelector('.drawRoute'),
-		mapsButton = document.querySelector('.drawRoute2'),
 
 		directionsService = new google.maps.DirectionsService(),
 		directionsDisplay,
@@ -55,9 +54,9 @@ $(document).foundation();
 		directionsDisplay = new google.maps.DirectionsRenderer();
 		directionsDisplay.setMap(map);
 
-		map.setCenter({lat: 44.500216, lng: -81.373118});
+		map.setCenter({ lat: position.coords.latitude, lng: position.coords.longitude });
 
-		map.setZoom(13);
+		map.setZoom(10);
 
 		yourMarker = new google.maps.Marker({
 			position : { lat: position.coords.latitude, lng: position.coords.longitude },
@@ -85,7 +84,7 @@ $(document).foundation();
 		
 	
 	var tourBase = new google.maps.Marker({
-		position: {lat: 44.500216, lng: -81.373118},
+		position: {lat: 44.49996, lng: -81.37315},
 		map:map,
 		title: 'Chantry Island Tour Information',
 		icon: 'images/icons/tourBase.png'
@@ -104,16 +103,16 @@ $(document).foundation();
 
 	loading.classList.add('hide-loading');
 	}
-
+		
 
 
 	function drawRoute() {
 		var start = yourLocation;
-		var end = new google.maps.LatLng(44.500216, -81.373118);
+		var end = new google.maps.LatLng(44.49996, -81.37315);
 		var request = {
 			origin: start,
 			destination: end,
-			travelMode: 'DRIVING',
+			travelMode: 'DRIVING'
 		};
 
 		directionsService.route(request, function(response, status) {
@@ -137,5 +136,6 @@ $(document).foundation();
 	}
 
 	mapButton.addEventListener('click', drawRoute, false);
-
+	
 })();
+
