@@ -14,7 +14,7 @@
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 		<link href="css/foundation.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWD1LSbz7HZBjmxOfjJLuMINqXPhNcAnk&amp;libraries=geometry"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWD1LSbz7HZBjmxOfjJLuMINqXPhNcAnk&amp;callback=initMap"></script>
 	</head>
 
 <body>
